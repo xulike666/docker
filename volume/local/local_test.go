@@ -285,7 +285,7 @@ func TestCreateWithOpts(t *testing.T) {
 	}
 }
 
-func TestRealodNoOpts(t *testing.T) {
+func TestReloadNoOpts(t *testing.T) {
 	rootDir, err := ioutil.TempDir("", "volume-test-reload-no-opts")
 	if err != nil {
 		t.Fatal(err)
