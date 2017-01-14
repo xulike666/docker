@@ -648,7 +648,7 @@ func TestExistsTrue(t *testing.T) {
 	db.Set("/testing", "1")
 
 	if !db.Exists("/testing") {
-		t.Fatalf("/tesing should exist")
+		t.Fatalf("/testing should exist")
 	}
 }
 
@@ -663,7 +663,7 @@ func TestExistsFalse(t *testing.T) {
 	db.Set("/toerhe", "1")
 
 	if db.Exists("/testing") {
-		t.Fatalf("/tesing should not exist")
+		t.Fatalf("/testing should not exist")
 	}
 
 }
